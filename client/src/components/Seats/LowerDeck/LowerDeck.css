@@ -1,0 +1,36 @@
+.lower-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  border: 1.5px solid rgb(0, 8, 255);
+  justify-content: flex-start;
+  width: 200px;
+  text-align: center;
+}
+
+.lower-deck button {
+  margin: 12px;
+  width: 30px;
+  height: 65px;
+}
+.red {
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid rgb(192, 105, 167);
+}
+.green {
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid rgb(40, 146, 40);
+}
+.bookedred {
+  cursor: not-allowed;
+  border: 2px solid red;
+}
+
+.clicked {
+  cursor: pointer;
+  background-color: lightgreen;
+  border: 1px solid wheat;
+}

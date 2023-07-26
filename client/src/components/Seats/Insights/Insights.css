@@ -1,0 +1,25 @@
+
+
+.insights {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  border: 1.5px solid rgb(0, 0, 0);
+  justify-content: flex-start;
+  width: 300px;
+  height: auto;
+  text-align: center;
+}
+
+.insights button {
+  margin: 12px;
+  width: 30px;
+  height: 30px;
+  cursor: not-allowed;
+}
+
+.byYou {
+  background-color: lightgreen;
+}
